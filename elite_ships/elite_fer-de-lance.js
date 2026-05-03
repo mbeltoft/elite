@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_fer_de_lance.html
 
-const vs_raw = [
+const vs_fer_de_lance = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [  0,  -14,  108,     1,      0,    9,     5,         31],
 [-40,  -14,   -4,     2,      1,    9,     9,         31],
@@ -23,7 +23,7 @@ const vs_raw = [
 [ 14,  -14,   44,     9,      9,    9,     9,         12],
 ]
 
-const fs_raw = [
+const fs_fer_de_lance = [
 [ 0,       1,     9,     1,         31],
 [ 1,       2,     9,     2,         31],
 [ 2,       3,     9,     3,         31],

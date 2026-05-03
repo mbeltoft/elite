@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_shuttle.html
 
-const vs_raw = [
+const vs_shuttle = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [  0,  -17,   23,    15,     15,   15,    15,         31],
 [-17,    0,   23,    15,     15,   15,    15,         31],
@@ -23,7 +23,7 @@ const vs_raw = [
 [-10,    4,   25,    15,      4,    8,     1,          8],
 ]
 
-const fs_raw = [
+const fs_shuttle = [
 [ 0,       1,     2,     0,         31],
 [ 1,       2,    10,     4,         31],
 [ 2,       3,    11,     6,         31],

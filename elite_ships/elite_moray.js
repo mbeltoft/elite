@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_moray.html
 
-const vs_raw = [
+const vs_moray = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [ 15,    0,   65,     2,      0,    8,     7,         31],
 [-15,    0,   65,     1,      0,    7,     6,         31],
@@ -18,7 +18,7 @@ const vs_raw = [
 [ -6,    0,   65,     0,      0,    0,     0,          5],
 ]
 
-const fs_raw = [
+const fs_moray = [
 [ 0,       1,     7,     0,         31],
 [ 1,       3,     6,     1,         31],
 [ 3,       6,     6,     3,         24],

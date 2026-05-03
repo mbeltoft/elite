@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/cassette/main/variable/ship_thargon.html
 
-const vs_raw = [
+const vs_thargon = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [-9,    0,   40,     1,      0,    5,     5,         31],
 [-9,  -38,   12,     1,      0,    2,     2,         31],
@@ -14,7 +14,7 @@ const vs_raw = [
 [ 9,   10,  -15,     5,      4,    6,     6,         31],
 ]
 
-const fs_raw = [
+const fs_thargon = [
 [ 0,       1,     0,     1,         31],
 [ 1,       2,     0,     2,         31],
 [ 2,       3,     0,     3,         31],

@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_constrictor.html
 
-const vs_raw = [
+const vs_constrictor = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [ 20,   -7,   80,     2,      0,    9,     9,         31],
 [-20,   -7,   80,     1,      0,    9,     9,         31],
@@ -21,7 +21,7 @@ const vs_raw = [
 [  0,   -7,    0,    15,      9,    1,     0,          0],
 ]
 
-const fs_raw = [
+const fs_constrictor = [
 [ 0,       1,     9,     0,         31],
 [ 1,       2,     9,     1,         31],
 [ 1,       9,     1,     0,         31],

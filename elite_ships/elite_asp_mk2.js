@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_asp_mk_2.html
 
-const vs_raw = [
+const vs_asp_mk2 = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [  0,  -18,    0,     1,      0,    2,     2,         22],
 [  0,   -9,  -45,     2,      1,   11,    11,         31],
@@ -23,7 +23,7 @@ const vs_raw = [
 [  0,   -7,   83,     4,      0,    4,     0,         10],
 ]
 
-const fs_raw = [
+const fs_asp_mk2 = [
 [ 0,       1,     2,     1,         22],
 [ 0,       4,     1,     0,         22],
 [ 0,       7,     2,     0,         22],

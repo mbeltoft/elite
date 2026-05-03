@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_cobra_mk_1.html
 
-const vs_raw = [
+const vs_cobra_mk1 = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [-18,   -1,   50,     1,      0,    3,     2,         31],
 [ 18,   -1,   50,     1,      0,    5,     4,         31],
@@ -15,7 +15,7 @@ const vs_raw = [
 [  0,   -1,   60,     1,      0,    1,     1,         31],
 ]
 
-const fs_raw = [
+const fs_cobra_mk1 = [
 [ 1,       0,     1,     0,         31],
 [ 0,       2,     3,     2,         31],
 [ 2,       6,     8,     3,         31],

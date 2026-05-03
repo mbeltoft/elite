@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/cassette/main/variable/ship_missile.html
 
-const vs_raw = [
+const vs_missile = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [  0,    0,   68,     0,      1,    2,     3,         31],
 [  8,   -8,   36,     1,      2,    4,     5,         31],
@@ -21,7 +21,7 @@ const vs_raw = [
 [  8,   -8,  -12,     4,      5,    5,     5,          8],
 ]
 
-const fs_raw = [
+const fs_missile = [
 [ 0,       1,     1,     2,         31],
 [ 0,       2,     2,     3,         31],
 [ 0,       3,     0,     3,         31],

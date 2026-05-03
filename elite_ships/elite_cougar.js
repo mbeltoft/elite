@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_cougar.html
 
-const vs_raw = [
+const vs_cougar = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [  0,    5,   67,     2,      0,    4,     4,         31],
 [-20,    0,   40,     1,      0,    2,     2,         31],
@@ -23,7 +23,7 @@ const vs_raw = [
 [ 10,    6,  -40,     5,      5,    5,     5,         20],
 ]
 
-const fs_raw = [
+const fs_cougar = [
 [ 0,       1,     2,     0,         31],
 [ 1,       7,     1,     0,         31],
 [ 7,       8,     1,     0,         31],

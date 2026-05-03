@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_krait.html
 
-const vs_raw = [
+const vs_krait = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [  0,    0,   96,     1,      0,    3,     2,         31],
 [  0,   18,  -48,     3,      0,    5,     4,         31],
@@ -21,7 +21,7 @@ const vs_raw = [
 [-36,    0,  -30,     5,      5,    5,     5,          8],
 ]
 
-const fs_raw = [
+const fs_krait = [
 [ 0,       1,     3,     0,         31],
 [ 0,       2,     2,     1,         31],
 [ 0,       3,     1,     0,         31],

@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_anaconda.html
 
-const vs_raw = [
+const vs_anaconda = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [  0,    7,  -58,     1,      0,    5,     5,         30],
 [-43,  -13,  -37,     1,      0,    2,     2,         30],
@@ -19,7 +19,7 @@ const vs_raw = [
 [ 43,   53,  -23,    15,     15,   15,    15,         31],
 ]
 
-const fs_raw = [
+const fs_anaconda = [
 [ 0,       1,     1,     0,         30],
 [ 1,       2,     2,     0,         30],
 [ 2,       3,     3,     0,         30],

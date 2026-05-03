@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/cassette/main/variable/ship_coriolis.html
 
-const vs_raw = [
+const vs_coriolis_station = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [ 160,    0,  160,     0,      1,    2,     6,         31],
 [   0,  160,  160,     0,      2,    3,     8,         31],
@@ -20,7 +20,7 @@ const vs_raw = [
 [ -10,  -30,  160,     0,      0,    0,     0,         30],
 ]
 
-const fs_raw = [
+const fs_coriolis_station = [
 [  0,       3,     0,     1,         31],
 [  0,       1,     0,     2,         31],
 [  1,       2,     0,     3,         31],

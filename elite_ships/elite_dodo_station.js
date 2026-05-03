@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_dodo.html
 
-const vs_raw = [
+const vs_dodo_station = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [   0,  150,  196,     1,      0,    5,     5,         31],
 [ 143,   46,  196,     1,      0,    2,     2,         31],
@@ -28,7 +28,7 @@ const vs_raw = [
 [  16,  -32,  196,     0,      0,    0,     0,         23],
 ]
 
-const fs_raw = [
+const fs_dodo_station = [
 [ 0,       1,     1,     0,         31],
 [ 1,       2,     2,     0,         31],
 [ 2,       3,     3,     0,         31],

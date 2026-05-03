@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_boa.html
 
-const vs_raw = [
+const vs_boa = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [  0,    0,   93,    15,     15,   15,    15,         31],
 [  0,   40,  -87,     2,      0,    3,     3,         24],
@@ -17,7 +17,7 @@ const vs_raw = [
 [-13,   -9, -107,     2,      1,   12,    12,         22],
 ]
 
-const fs_raw = [
+const fs_boa = [
 [ 0,       5,    11,     6,         31],
 [ 0,       7,    10,     8,         31],
 [ 0,       9,     9,     7,         31],

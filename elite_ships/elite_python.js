@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/cassette/main/variable/ship_python.html
 
-const vs_raw = [
+const vs_python = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [   0,    0,  224,     0,      1,    2,     3,         31],
 [   0,   48,   48,     0,      1,    4,     5,         30],
@@ -15,7 +15,7 @@ const vs_raw = [
 [   0,  -24, -112,    10,     11,   12,    12,         30],
 ]
 
-const fs_raw = [
+const fs_python = [
 [ 0,       8,     2,     3,         30],
 [ 0,       3,     0,     2,         31],
 [ 0,       2,     1,     3,         31],

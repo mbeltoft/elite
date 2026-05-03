@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/cassette/main/variable/ship_thargoid.html
 
-const vs_raw = [
+const vs_thargoid = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [ 32,  -48,   48,     0,      4,    8,     8,         31],
 [ 32,  -68,    0,     0,      1,    4,     4,         31],
@@ -24,7 +24,7 @@ const vs_raw = [
 [-24,  -64,   80,     9,      9,    9,     9,         30],
 ]
 
-const fs_raw = [
+const fs_thargoid = [
 [ 0,       7,     4,     8,         31],
 [ 0,       1,     0,     4,         31],
 [ 1,       2,     1,     4,         31],

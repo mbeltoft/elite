@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_rock_hermit.html
 
-const vs_raw = [
+const vs_rock_hermit = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [  0,   80,    0,    15,     15,   15,    15,         31],
 [-80,  -10,    0,    15,     15,   15,    15,         31],
@@ -13,7 +13,7 @@ const vs_raw = [
 [  0,  -50,  -60,     8,      9,   10,    11,         31],
 ]
 
-const fs_raw = [
+const fs_rock_hermit = [
 [0,       1,     2,     7,         31],
 [0,       4,     6,    13,         31],
 [3,       4,     5,    12,         31],

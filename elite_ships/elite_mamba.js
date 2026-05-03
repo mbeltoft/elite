@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/cassette/main/variable/ship_mamba.html
 
-const vs_raw = [
+const vs_mamba = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [   0,    0,   64,     0,      1,    2,     3,         31],
 [ -64,   -8,  -32,     0,      2,    4,     4,         31],
@@ -29,7 +29,7 @@ const vs_raw = [
 [  38,    0,  -32,     4,      4,    4,     4,          5],
 ]
 
-const fs_raw = [
+const fs_mamba = [
 [  0,       1,     0,     2,         31],
 [  0,       4,     0,     3,         31],
 [  1,       4,     0,     4,         31],

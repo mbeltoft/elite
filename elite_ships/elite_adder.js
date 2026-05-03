@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_adder.html
 
-const vs_raw = [
+const vs_adder = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [-18,    0,   40,     1,      0,   12,    11,         31],
 [ 18,    0,   40,     1,      0,    3,     2,         31],
@@ -22,7 +22,7 @@ const vs_raw = [
 [-11,    4,   24,     0,      0,    0,     0,          4],
 ]
 
-const fs_raw = [
+const fs_adder = [
 [ 0,       1,     1,     0,         31],
 [ 1,       2,     3,     2,          7],
 [ 2,       3,     5,     4,         31],

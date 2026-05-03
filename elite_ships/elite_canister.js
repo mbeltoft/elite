@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/cassette/main/variable/ship_canister.html
 
-const vs_raw = [
+const vs_canister = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [ 24,   16,    0,     0,      1,    5,     5,         31],
 [ 24,    5,   15,     0,      1,    2,     2,         31],
@@ -14,7 +14,7 @@ const vs_raw = [
 [-24,    5,  -15,     4,      5,    6,     6,         31],
 ]
 
-const fs_raw = [
+const fs_canister = [
 [ 0,       1,     0,     1,         31],
 [ 1,       2,     0,     2,         31],
 [ 2,       3,     0,     3,         31],

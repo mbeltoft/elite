@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_worm.html
 
-const vs_raw = [
+const vs_worm = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [ 10,  -10,   35,     2,      0,    7,     7,         31],
 [-10,  -10,   35,     3,      0,    7,     7,         31],
@@ -14,7 +14,7 @@ const vs_raw = [
 [ -8,   14,  -25,     5,      1,    6,     6,         31],
 ]
 
-const fs_raw = [
+const fs_worm = [
 [0,       1,     7,     0,         31],
 [1,       5,     7,     3,         31],
 [5,       7,     7,     5,         31],

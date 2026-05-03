@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_transporter.html
 
-const vs_raw = [
+const vs_transporter = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [  0,   10,  -26,     6,      0,    7,     7,         31],
 [-25,    4,  -26,     1,      0,    7,     7,         31],
@@ -41,7 +41,7 @@ const vs_raw = [
 [ -8,    3,  -26,     0,      0,    0,     0,          5],
 ]
 
-const fs_raw = [
+const fs_transporter = [
 [ 0,       1,     7,     0,         31],
 [ 1,       2,     1,     0,         31],
 [ 2,       3,     2,     0,         31],

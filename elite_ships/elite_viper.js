@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/cassette/main/variable/ship_viper.html
 
-const vs_raw = [
+const vs_viper = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [ 0,    0,   72,     1,      2,    3,     4,         31],
 [ 0,   16,   24,     0,      1,    2,     2,         30],
@@ -19,7 +19,7 @@ const vs_raw = [
 [ 8,   -8,  -24,     6,      6,    6,     6,         18],
 ]
 
-const fs_raw = [
+const fs_viper = [
 [       0,       3,     2,     4,         31],
 [       0,       1,     1,     2,         30],
 [       0,       2,     3,     4,         30],

@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/6502sp/main/variable/ship_logo.html
 
-const vs_raw = [
+const vs_logo = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [   0,   -9,   55,     0,      0,    0,     0,         31],
 [ -10,   -9,   30,     0,      0,    0,     0,         31],
@@ -46,7 +46,7 @@ const vs_raw = [
 [  49,   11,  -10,     0,      0,    0,     0,         31],
 ]
 
-const fs_raw = [
+const fs_logo = [
 [ 0,       1,     0,     0,         31],
 [ 1,       2,     0,     0,         31],
 [ 2,       3,     0,     0,         31],

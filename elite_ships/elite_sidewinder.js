@@ -1,6 +1,6 @@
 // https://elite.bbcelite.com/cassette/main/variable/ship_sidewinder.html
 
-const vs_raw = [
+const vs_sidewinder = [
 // x,    y,    z, face1, face2, face3, face4, visibility
 [-32,    0,   36,     0,      1,    4,     5,         31],
 [32,    0,   36,     0,      2,    5,     6,         31],
@@ -14,7 +14,7 @@ const vs_raw = [
 [-12,   -6,  -28,     3,      3,    3,     3,         12],
 ]
 
-const fs_raw = [
+const fs_sidewinder = [
 [0,       1,     0,     5,         31],
 [1,       2,     2,     6,         31],
 [1,       4,     0,     2,         31],
