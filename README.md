@@ -1,4 +1,4 @@
-# elite
+# Elite
 
 **Animate spaceships from Elite**
 
