@@ -1,5 +1,6 @@
 # elite
-Animate spaceships from Elite
+
+**Animate spaceships from Elite**
 
 This repository builds on tsoding's "One Formula That Demystifies 3D Graphics"
 repository https://github.com/tsoding/formula.

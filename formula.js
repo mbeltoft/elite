@@ -160,6 +160,134 @@ function convertEliteEdges(fs_arr) {
 }
 
 if (elite_ships) {
+	vs_raw = vs_cobra_mk3
+	fs_raw = fs_cobra_mk3
+
+	vs = scaleEliteVertex(vs_raw, 0.3)
+	fs = convertEliteEdges(fs_raw)
+}
+
+const dropdown = document.getElementById('ship-select')
+dropdown.onchange = function() {
+	var vs_raw = []
+	var fs_raw = []
+    console.log("Selected value: ", this.value)
+	switch(this.value){
+		case "adder":
+			vs_raw = vs_adder
+			fs_raw = fs_adder
+			break;
+		case "anaconda":
+			vs_raw = vs_anaconda
+			fs_raw = fs_anaconda
+			break;
+		case "asp_mk2":
+			vs_raw = vs_asp_mk2
+			fs_raw = fs_asp_mk2
+			break;
+		case "asteroid":
+			vs_raw = vs_asteroid
+			fs_raw = fs_asteroid
+			break;
+		case "boa":
+			vs_raw = vs_boa
+			fs_raw = fs_boa
+			break;
+		case "canister":
+			vs_raw = vs_canister
+			fs_raw = fs_canister
+			break;
+		case "cobra_mk1":
+			vs_raw = vs_cobra_mk1
+			fs_raw = fs_cobra_mk1
+			break;
+		case "cobra_mk3":
+			vs_raw = vs_cobra_mk3
+			fs_raw = fs_cobra_mk3
+			break;
+		case "constrictor":
+			vs_raw = vs_constrictor
+			fs_raw = fs_constrictor
+			break;
+		case "coriolis_station":
+			vs_raw = vs_coriolis_station
+			fs_raw = fs_coriolis_station
+			break;
+		case "cougar":
+			vs_raw = vs_cougar
+			fs_raw = fs_cougar
+			break;
+		case "dodo_station":
+			vs_raw = vs_dodo_station
+			fs_raw = fs_dodo_station
+			break;
+		case "escape_pod":
+			vs_raw = vs_escape_pod
+			fs_raw = fs_escape_pod
+			break;
+		case "fer-de-lance":
+			vs_raw = vs_fer_de_lance
+			fs_raw = fs_fer_de_lance
+			break;
+		case "krait":
+			vs_raw = vs_krait
+			fs_raw = fs_krait
+			break;
+		case "mamba":
+			vs_raw = vs_mamba
+			fs_raw = fs_mamba
+			break;
+		case "missile":
+			vs_raw = vs_missile
+			fs_raw = fs_missile
+			break;
+		case "moray":
+			vs_raw = vs_moray
+			fs_raw = fs_moray
+			break;
+		case "python":
+			vs_raw = vs_python
+			fs_raw = fs_python
+			break;
+		case "rock_hermit":
+			vs_raw = vs_rock_hermit
+			fs_raw = fs_rock_hermit
+			break;
+		case "shuttle":
+			vs_raw = vs_shuttle
+			fs_raw = fs_shuttle
+			break;
+		case "sidewinder":
+			vs_raw = vs_sidewinder
+			fs_raw = fs_sidewinder
+			break;
+		case "thargoid":
+			vs_raw = vs_thargoid
+			fs_raw = fs_thargoid
+			break;
+		case "thargon":
+			vs_raw = vs_thargon
+			fs_raw = fs_thargon
+			break;
+		case "transporter":
+			vs_raw = vs_transporter
+			fs_raw = fs_transporter
+			break;
+		case "viper":
+			vs_raw = vs_viper
+			fs_raw = fs_viper
+			break;
+		case "worm":
+			vs_raw = vs_worm
+			fs_raw = fs_worm
+			break;
+		case "logo":
+			vs_raw = vs_logo
+			fs_raw = fs_logo
+			break;
+        default: 
+			break;
+    }
 	vs = scaleEliteVertex(vs_raw, 0.3)
 	fs = convertEliteEdges(fs_raw)
 }
