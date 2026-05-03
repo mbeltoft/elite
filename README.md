@@ -13,3 +13,5 @@ which I found here: https://elite.bbcelite.com/deep_dives/ship_blueprints.html
 The format was not directly usable, but after converting into arrays of points
 and edges I added scaling of the points in the models to the "unit" world and
 the ship models displayed fine.
+
+![Screenshot of Cobra spaceship from Elite.](/imgs/elite-cobra.png)
