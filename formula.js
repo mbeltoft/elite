@@ -10,14 +10,9 @@
 const BACKGROUND = "#101010"
 const FOREGROUND = "#50FF50"
 
-// Animate Elite ships
-const elite_ships = true
-
-//console.log(game)
 game.width = 800
 game.height = 800
 const ctx = game.getContext("2d")
-//console.log(ctx)
 
 // Clear screen
 function clear() {
@@ -99,43 +94,20 @@ function line(p1, p2) {
 }
 
 const FPS = 60
-let dz = 1
+let dz = 1.5
 let angle_rad = 0
-
-// Corners of the box moving away from the eye
-function frame1() {
-	const dt = 1/FPS
-	dz += 1*dt
-	angle_rad += Math.PI*dt
-	clear()
-	for (const v of vs) {
-		point(screen(project(translate_z(rotate_xz(v, angle_rad), dz), 1)))
-	}
-	setTimeout(frame1, 1000/FPS)
-}
 
 // Convert Elite ship point data format to format used in this demo
 // Data is scaled to max_size 0..1
 function scaleEliteVertex(vs_arr, max_size) {
 	let vs = []
-	let max_x = 0
-	let max_y = 0
-	let max_z = 0
 	let max = 0
 	for (const elm of vs_arr) {
 		// x, y and z is at 0, 1 and 2
-		if (Math.abs(elm[0]) > max_x) max_x = Math.abs(elm[0])
-		if (Math.abs(elm[1]) > max_y) max_y = Math.abs(elm[1])
-		if (Math.abs(elm[2]) > max_z) max_z = Math.abs(elm[2])
+		if (Math.abs(elm[0]) > max) max = Math.abs(elm[0])
+		if (Math.abs(elm[1]) > max) max = Math.abs(elm[1])
+		if (Math.abs(elm[2]) > max) max = Math.abs(elm[2])
 	}
-	//console.log("Max x: " + max_x)
-	//console.log("Max y: " + max_y)
-	//console.log("Max z: " + max_z)
-	
-	if (max_x > max) max = max_x
-	if (max_y > max) max = max_y
-	if (max_z > max) max = max_z
-	//console.log("max: " + max)
 	
 	for (const elm of vs_arr) {
 		vs.push({
@@ -159,20 +131,11 @@ function convertEliteEdges(fs_arr) {
 	return fs
 }
 
-if (elite_ships) {
-	vs_raw = vs_cobra_mk3
-	fs_raw = fs_cobra_mk3
-
-	vs = scaleEliteVertex(vs_raw, 0.3)
-	fs = convertEliteEdges(fs_raw)
-}
-
-const dropdown = document.getElementById('ship-select')
-dropdown.onchange = function() {
+function drawSelectedShip(ship_name) {
 	var vs_raw = []
 	var fs_raw = []
     console.log("Selected value: ", this.value)
-	switch(this.value){
+	switch(ship_name){
 		case "adder":
 			vs_raw = vs_adder
 			fs_raw = fs_adder
@@ -292,14 +255,19 @@ dropdown.onchange = function() {
 	fs = convertEliteEdges(fs_raw)
 }
 
+const dropdown = document.getElementById('ship-select')
+dropdown.onchange = drawSelectedShip(this.value)
+
+drawSelectedShip("cobra_mk3")
+
 // Display rotating model at fixed distance from eye
 function frame() {
 	const draw_dots = false
 	const draw_vertices = true
 	const dt = 1/FPS
-	const focal = 1.5
-	//dz += 1*dt
-	angle_rad += Math.PI*dt
+	const focal = 2
+	// dz += 1*dt
+	angle_rad += Math.PI*dt/2
 	clear()
 	if (draw_dots) {
 		for (const v of vs) {
@@ -319,5 +287,4 @@ function frame() {
 	setTimeout(frame, 1000/FPS)
 }
 
-//setTimeout(frame1, 1000/FPS)
 setTimeout(frame, 1000/FPS)
